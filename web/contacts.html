@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css">
+    <title>Bemutatkozó oldal - Kapcsolat</title>
+</head>
+<body>
+    <header>
+        <img src="/img/profile.png" alt="kép">
+        <h1>Zick Balázs</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a id="">Magamról</a></li>
+            <li><a id="hobbies">Hobbijaim</a></li>
+            <li><a id="contacts">Kapcsolat</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Kapcsolat</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, alias eius corporis rem animi nobis eligendi culpa iusto dolorem laborum totam eaque, debitis ullam magni provident in dolorum, distinctio a!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates, voluptate eveniet tempora ut quod commodi, omnis est aut officia blanditiis excepturi maiores architecto culpa nesciunt sit, corrupti exercitationem accusantium!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, laudantium. Cupiditate eveniet fugit optio deleniti recusandae? Error doloremque repellat temporibus, dolores optio accusamus quo doloribus, adipisci dignissimos enim, fugit nisi.</p>
+        <form action="/api/message" method="post">
+            <h3>Írjon üzenetet!</h3>
+            <div>
+                <label for="name">Név:</label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label for="email">E-Mail cím:</label>
+                <input type="email" name="email">
+            </div>
+            <div>
+                <label for="message">Üzenet:</label>
+                <textarea name="message" cols="30" rows="10"></textarea>
+            </div>
+            <input type="submit" value="Üzenet küldése">
+        </form>
+    </main>
+    <footer>
+        <p>Készítette: ZB 2022.</p>
+    </footer>
+    <script src="/js/fadeinout.js"></script>
+</body>
+</html>
